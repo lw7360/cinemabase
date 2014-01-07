@@ -1,0 +1,252 @@
+body {
+	background: url(../img/office.png) repeat 0 0;
+	background-color: black;
+	color: white;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', Georgia, Times, serif;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+p, span, div, li, a, input, button {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.container {
+	vertical-align:middle;
+	max-width: 1200px;
+	margin: auto;
+	background-color:rgba(0,0,0,.7);
+	border: 1px solid #bbb;
+	width: 50%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-o-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	box-shadow: inset 0 0 1px 1px #f6f6f6;
+
+}
+
+header h1 {
+	color: #f7f7f7;
+	font-size: 3em;
+	text-align: center;
+	/*-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);*/
+	margin: 20px auto;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+
+#fetch {
+	margin: auto;
+	text-align: center;
+	max-width: 500px;
+}
+
+#term {
+	padding: 10px;
+	font-size: 1.3em;
+	margin: 10px auto;
+	width: 77%;
+}
+
+#search {
+	background: #e3e3e3;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-o-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	box-shadow: inset 0 0 1px 1px #f6f6f6;
+	color: #333;
+	line-height: 1;
+	font-size: 1.3em;
+	padding: 8px 0 9px;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+	display: block;
+	margin: 10px auto;
+	width: 77%;
+}
+
+#search:hover {
+	background: #d9d9d9;
+	-webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-moz-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-ms-box-shadow: inset 0 0 1px 1px #eaeaea;
+	-o-box-shadow: inset 0 0 1px 1px #eaeaea;
+	box-shadow: inset 0 0 1px 1px #eaeaea;
+	color: #222;
+	cursor: pointer;
+}
+
+#search:active {
+	background: #d0d0d0;
+	-webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-ms-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	-o-box-shadow: inset 0 0 1px 1px #e3e3e3;
+	box-shadow: inset 0 0 1px 1px #e3e3e3;
+	color: #000;
+}
+
+#poster {
+	text-align: center;
+}
+
+#thePoster {
+	display: inline-block;
+	max-width: 100%;
+	margin: 20px auto;
+	-webkit-box-shadow: 1px 1px 20px #000000;
+	-moz-box-shadow: 1px 1px 20px #000000;
+	box-shadow: 1px 1px 20px #000000;
+}
+
+.loading {
+	color: #f7f7f7;
+	margin: 20px auto;
+	font-size: 2em;
+}
+
+footer {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.twitter-follow-button {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.navbar-inverse .navbar-text {
+	color: #f7f7f7;
+}
+
+#data {
+	vertical-align:middle;
+	max-width: 1200px;
+	margin: auto;
+	background-color:rgba(0,0,0,.7);
+	border: 1px solid #bbb;
+	width: 100%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	-o-box-shadow: inset 0 0 1px 1px #f6f6f6;
+	box-shadow: inset 0 0 1px 1px #f6f6f6;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-right:25px;
+	padding-left:25px;
+}
+
+#data img {
+	float:left;
+	margin-right:25px;
+}
+
+.tomatometer, .tomatometer > span{
+display: block;
+width: 188px;
+height: 20px;
+margin: 4px 0;
+background: transparent url('http://images.rottentomatoescdn.com/images/redesign/tomatometer_bar_bg.png') no-repeat 0 0;
+}
+
+.tomatometer, .tomatometer > span{
+display: block;
+width: 188px;
+height: 20px;
+margin: 4px 0;
+background: transparent url('http://images.rottentomatoescdn.com/images/redesign/tomatometer_bar_bg.png') no-repeat 0 0;
+}
+
+.tomatometer > span {
+float: left;
+    margin: 0;
+    width: 0;
+}
+
+.tomatometer.fresh > span, .tomatometer.certified > span {
+background-position: 0 -20px;
+}
+
+.tomatometer.rotten > span{
+background-position:0 -40px;
+}
+
+.icon {
+display: inline-block;
+vertical-align: text-bottom;
+background:transparent url('http://images.rottentomatoescdn.com/images/redesign/icons-v2.png') no-repeat -312px -160px;
+}
+.icon.huge { width:64px; height:64px; }
+.icon.big { width:48px; height:48px; }
+.icon.medium { width:32px; height:32px; }
+.icon.small { width:24px; height:24px; }
+.icon.tiny { width:16px; height:16px; }
+
+.icon.huge.fresh { background-position:0px 0px; }
+.icon.huge.rotten { background-position:-64px 0px; }
+.icon.huge.certified { background-position:-128px 0px; }
+.icon.huge.popcorn { background-position:-128px -64px; }
+.icon.huge.wts { background-position:-64px -64px; }
+.icon.huge.spilled { background-position:0px -64px; }
+
+.icon.big.fresh { background-position:-192px -48px;}
+.icon.big.rotten { background-position:-192px -96px; }
+.icon.big.certified { background-position:-192px -96px; }
+.icon.big.popcorn { background-position:-240px -48px; }
+.icon.big.wts { background-position:-240px 0px; }
+.icon.big.spilled { background-position:-192px 0px; }
+
+.icon.medium.fresh { background-position:-64px -128px; }
+.icon.medium.rotten { background-position:-96px -128px; }
+.icon.medium.certified { background-position:-160px -128px; }
+.icon.medium.popcorn { background-position:-32px -128px; }
+.icon.medium.wts { background-position:0px -128px; }
+.icon.medium.spilled { background-position:-128px -128px; }
+
+.icon.small.fresh { background-position:-288px -48px;}
+.icon.small.rotten { background-position:-288px -96px;}
+.icon.small.certified { background-position:-288px -72px;}
+.icon.small.popcorn { background-position:-288px -24px;}
+.icon.small.wts { background-position:-288px 0px;}
+.icon.small.spilled { background-position:-288px -120px; }
+
+.icon.tiny.fresh { background-position:-256px -144px; }
+.icon.tiny.rotten { background-position:-272px -144px; }
+.icon.tiny.popcorn { background-position:-288px -144px; }
+.icon.tiny.spilled { background-position:-208px -144px; }
+.icon.tiny.wts { background-position:-192px -144px; }
+.icon.tiny.friend_wts { background-position:-224px -144px; }
+.icon.tiny.friend_rating { background-position:-240px -144px; }
