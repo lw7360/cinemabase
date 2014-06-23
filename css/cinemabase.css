@@ -28,8 +28,6 @@ header {
 	color: #f7f7f7;
 	font-size: 2em;
 	text-align: center;
-	/*-webkit-transform: rotate(-5deg);
-	-moz-transform: rotate(-5deg);*/
 	margin: 20px auto;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
@@ -45,79 +43,34 @@ header h1 {
 }
 
 #fetch {
-	margin: auto;
-	text-align: center;
-	max-width: 500px;
-	color: black;
+	width: 500px;
+	margin: 0px auto;
 }
-
-/*#term {
-	padding: 10px;
-	font-size: 1.3em;
-	margin: 10px auto;
-	width: 77%;
-}
-*/
-/*#search {
-	background: #e3e3e3;
-	border: 1px solid #bbb;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
-	-webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
-	-moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
-	-ms-box-shadow: inset 0 0 1px 1px #f6f6f6;
-	-o-box-shadow: inset 0 0 1px 1px #f6f6f6;
-	box-shadow: inset 0 0 1px 1px #f6f6f6;
-	color: #333;
-	line-height: 1;
-	font-size: 1.3em;
-	padding: 8px 0 9px;
-	text-align: center;
-	text-shadow: 0 1px 0 #fff;
-	display: block;
-	margin: 10px auto;
-	width: 50%;
-}*/
-
-/*#search:hover {
-	background: #d9d9d9;
-	-webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
-	-moz-box-shadow: inset 0 0 1px 1px #eaeaea;
-	-ms-box-shadow: inset 0 0 1px 1px #eaeaea;
-	-o-box-shadow: inset 0 0 1px 1px #eaeaea;
-	box-shadow: inset 0 0 1px 1px #eaeaea;
-	color: #222;
-	cursor: pointer;
-}
-
-#search:active {
-	background: #d0d0d0;
-	-webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
-	-moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
-	-ms-box-shadow: inset 0 0 1px 1px #e3e3e3;
-	-o-box-shadow: inset 0 0 1px 1px #e3e3e3;
-	box-shadow: inset 0 0 1px 1px #e3e3e3;
-	color: #000;
-}*/
 
 #poster {
 	text-align: center;
+	margin-top: 10px;
+	font-size: 22px;
 }
 
 #thePoster {
 	display: inline-block;
-	max-width: 100%;
+	max-width: 500px;
 	margin: 20px auto;
 	-webkit-box-shadow: 1px 1px 20px #000000;
 	-moz-box-shadow: 1px 1px 20px #000000;
 	box-shadow: 1px 1px 20px #000000;
 }
 
-.loading {
-	color: #f7f7f7;
-	margin: 20px auto;
-	font-size: 2em;
+#footer {
+   	position:absolute;
+   	width: 100%;
+	bottom:0;
+	text-align: center ;
+	z-index: -1;
+}
+
+#footer a{
+	color: white;
+	text-decoration: underline;
 }

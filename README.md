@@ -1,3 +1,3 @@
 # [CinemaBase](http://larrywu.com/cinemabase/)
 
-## Really Simple Movie Poster Search 
+## Movie Poster Search powered by [TMDb](http://www.themoviedb.org/).
