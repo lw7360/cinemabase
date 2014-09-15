@@ -2,10 +2,10 @@ var searchMovie = function () {
     var key = '951666d97c55c0056c047864524a2e6b';
     var movie = $('#query').val();
     if (movie.length > 0) {
+        $("#title").html('');
         $('#poster').text('Searching for "' + movie + '".');
         $.getJSON('http://api.themoviedb.org/3/search/movie?api_key=' + key + '&query=' + movie,
             function (json) {
-                console.log(json);
                 if (json.total_results === 0) {
                     $('#poster').text('Could not find a poster for "' + movie + '".');
                 } else {
