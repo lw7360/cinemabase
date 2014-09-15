@@ -5,11 +5,15 @@ var searchMovie = function () {
         $('#poster').text('Searching for "' + movie + '".');
         $.getJSON('http://api.themoviedb.org/3/search/movie?api_key=' + key + '&query=' + movie,
             function (json) {
+                console.log(json);
                 if (json.total_results === 0) {
                     $('#poster').text('Could not find a poster for "' + movie + '".');
                 } else {
                     var posterpath = 'http://cf2.imgobject.com/t/p/original' + json.results[0].poster_path;
                     $('#poster').html('<a href="' + posterpath + '"><img id="thePoster" src="' + posterpath + '"></a>')
+                    $('#title').html('<a href="https://www.themoviedb.org/movie/' 
+                        + json.results[0].id + '">'
+                        + json.results[0].title + ' (' + json.results[0].release_date  + ')</a>');
                 }
             });
     } else {

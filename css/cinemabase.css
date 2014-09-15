@@ -1,7 +1,7 @@
 body {
-	background-color: black;
-	color: white;
-	font-size: 16px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,59 +18,71 @@ p, span, div, li, a, input, button {
 }
 
 .container {
-	margin-top: 30px;
-	vertical-align:middle;
-	background-color:rgba(0,0,0,.7);
-	width: 50%;
+    margin-top: 30px;
+    vertical-align:middle;
+    background-color:rgba(0,0,0,.7);
+    width: 50%;
 }
 
 header {
-	color: #f7f7f7;
-	font-size: 2em;
-	text-align: center;
-	margin: 20px auto;
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	cursor: default;
+    color: #f7f7f7;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 
 header h1 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 #fetch {
-	width: 500px;
-	margin: 0px auto;
+    width: 500px;
+    margin: 0px auto;
 }
 
 #poster {
-	text-align: center;
-	margin-top: 10px;
-	font-size: 22px;
+    text-align: center;
+    font-size: 22px;
 }
 
 #thePoster {
-	display: inline-block;
-	max-width: 500px;
-	margin: 20px auto;
-	-webkit-box-shadow: 1px 1px 20px #000000;
-	-moz-box-shadow: 1px 1px 20px #000000;
-	box-shadow: 1px 1px 20px #000000;
+    display: inline-block;
+    max-width: 500px;
+    margin: 0px auto;
+    -webkit-box-shadow: 1px 1px 20px #000000;
+    -moz-box-shadow: 1px 1px 20px #000000;
+    box-shadow: 1px 1px 20px #000000;
 }
 
 #footer {
-   	position:absolute;
-   	width: 100%;
-	bottom:0;
-	text-align: center ;
-	z-index: -1;
+    position:absolute;
+    width: 100%;
+    bottom:0;
+    text-align: center ;
+    z-index: -1;
 }
 
 #footer a{
-	color: white;
-	text-decoration: underline;
+    color: white;
+    text-decoration: underline;
+}
+
+#title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
+    display: block;
+}
+
+#title a {
+    color: white;
 }
